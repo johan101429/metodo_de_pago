@@ -19,7 +19,7 @@ export const Product = () => {
       const response = await axios.post("http://localhost:8080/create_preference", {
         title: "Monstera",
         quantity: 1,
-        price: 1000,
+        price: 100000,
       });
 
       console.log("Respuesta del backend:", response.data);  // Añadir un log para verificar la respuesta
