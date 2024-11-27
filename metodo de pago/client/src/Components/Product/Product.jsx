@@ -52,7 +52,7 @@ export const Product = () => {
         <div className="card">
           <img src={img} alt="Product Imagen" />
           <h3> Monstera</h3>
-          <p className="price">$1000</p>
+          <p className="price">$100000</p>
           <button  onClick={handleBuy}> Comprar </button>
           {preferenceId && (
             <Wallet

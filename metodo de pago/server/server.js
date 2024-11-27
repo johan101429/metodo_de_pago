@@ -31,7 +31,7 @@ app.post("/create_preference", async (req, res) => {
         {
           title: title || "Producto Genérico",
           quantity: Number(quantity) || 1,
-          unit_price: Number(price) || 1000,
+          unit_price: Number(price) || 100000,
           currency_id: "COP",
         },
       ],
